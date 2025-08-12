@@ -11,8 +11,10 @@ nav{
     position: fixed;
     background-image: linear-gradient(hsl(64, 27%, 68%),rgb(177, 177, 114));
     
+    
 
 }
+
 nav .logo p{
     font-size: 30px;
     font-weight: bold;
@@ -49,5 +51,21 @@ nav li a:hover{
     height: 100vh;
     background-size: cover;
     background-position: center;
+
+}
+.btn{
+    color: black;
+    transition: background 0.5s;
+    
+    
+}
+.btn:hover{
+    background: #fff;
+    
+    
+}
+
+.categories{
+    margin: 20px 0px;
 
 }
